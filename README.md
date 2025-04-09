@@ -12,6 +12,24 @@ Clustering with KMeans: Use the KMeans clustering technique to group cryptocurre
 
 Visualization: Following t-SNE reduction, an interactive scatter plot displays bitcoin data points and their groupings.
 
+
+
+Dependencies include:
+
+torch: For LSTM model implementation
+
+seaborn: For data visualization
+
+requests: For fetching cryptocurrency data
+
+numpy: For data manipulation
+
+pandas: For handling and storing data
+
+matplotlib: For plotting results
+
+sklearn: For data scaling, dimensionality reduction, and clustering
+
 Working-:
 Data Fetching: The CoinGecko API is used by the project to retrieve historical bitcoin price data. It provides a time series of the values of the top N cryptocurrencies during the previous seven days, retrieved by market capitalization.
 
